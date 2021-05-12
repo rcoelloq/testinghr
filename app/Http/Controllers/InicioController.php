@@ -11,4 +11,24 @@ class InicioController extends BaseController
         return view('index');
     }
 
+    public function llamarMiEmpresa()
+    {
+        return view('empresa');
+    }
+
+    public function llamarAbstract()
+    {
+        return view('abstract');
+    }
+
+    public function llamarPerfiles()
+    {
+        return view('perfiles');
+    }
+
+    public function llamarTesting()
+    {
+        return view('testing');
+    }
+
 }

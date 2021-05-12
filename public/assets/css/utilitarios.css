@@ -2,3 +2,20 @@
 {
 color: red;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 2em;
+
+}
+
+.grid div {
+    background: #ecf0f1;
+    padding: 2em;
+}
+
+.grid div:hover {
+    border: 1px solid #f1c40f
+}

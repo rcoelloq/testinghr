@@ -5,3 +5,5 @@
 <link rel="stylesheet" href="{{ url('assets/css/adminlte.min.css') }}">
 
 <link rel="stylesheet" href="{{ url('assets/css/adminlte.css') }}">
+
+<link rel="stylesheet" href="{{ url('assets/css/utilitarios.css') }}">

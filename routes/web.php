@@ -18,3 +18,12 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/index', ['uses' => 'InicioController@llamarVistaIndex']);
+
+$router->get('/empresa', ['uses' => 'InicioController@llamarMiEmpresa']);
+
+$router->get('/abstract', ['uses' => 'InicioController@llamarAbstract']);
+
+$router->get('/perfiles', ['uses' => 'InicioController@llamarPerfiles']);
+
+$router->get('/testing', ['uses' => 'InicioController@llamarTesting']);
+
